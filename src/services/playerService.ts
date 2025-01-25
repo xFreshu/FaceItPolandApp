@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL: string = 'https://open.faceit.com/data/v4';
-const API_KEY: string | undefined = process.env.FACEIT_API_KEY;
+const API_KEY: string | undefined = '9276c41f-dbd2-4ba5-908f-042d5d592ec6';
 
 export const getPlayerDetails = async (nickname: string): Promise<any> => {
   try {
